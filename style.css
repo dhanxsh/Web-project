@@ -1,0 +1,415 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.navbar-links {
+    display: flex;
+    column-gap: 20px;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: #10232c;
+}
+
+.navbar-links a:hover {
+    text-decoration: underline;
+
+}
+
+.navbar-menu-toggle {
+    display: none;
+}
+
+.side-navbar {
+    background-color: #10232c;
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    top: 0;
+    left: -60%;
+    padding: 20px;
+    color: white;
+    transition: 2s;
+}
+
+.side-navbar-links a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.side-navbar-links a:hover {
+    text-decoration: underline;
+}
+
+.side-navbar-link {
+    margin-bottom: 30px;
+}
+
+.header {
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    gap: 50px;
+}
+
+.header-button {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    background-color: #10232c;
+    color: white;
+}
+
+.service {
+    padding: 20px;
+
+}
+
+.service-container-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-container-2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+
+.service-container-2 div {
+    background-color: #f2f4f7;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.new-arrival {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.new-arrival-container {
+    position: relative;
+    flex-basis: 20%;
+}
+
+.new-arrival button {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 10px;
+    color: #10232c;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.news input {
+    padding: 11px;
+    width: 80vw;
+    margin-bottom: 10px;
+    border: solid black 3px;
+    margin-top: 20px;
+
+}
+
+.news button {
+    margin-top: 10px;
+    color: #f2f4f7;
+    background-color: #10232c;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.footer {
+    margin-top: 20px;
+    padding: 40px;
+    background-color: #10232c;
+    color: #f2f4f7;
+}
+
+.product-section {
+    margin-top: 20px;
+
+}
+
+.product-search {
+    width: 80%;
+    border: black solid 2px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+}
+
+.product-search input {
+    border: none;
+    background-color: transparent;
+    width: 100%;
+}
+
+.product-search input:focus {
+    outline: none;
+}
+
+.products {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.products-box {
+    text-align: center;
+    flex-basis: 20%;
+}
+
+.products-box img {
+    border-radius: 10px;
+}
+
+.products button {
+    padding: 10px;
+    margin: 5px;
+    background-color: #10232c;
+    color: #f2f4f7;
+    border-radius: 10px;
+    border: none;
+    font-size: large;
+}
+
+.contact-container {
+    background-color: #10232c;
+    border-radius: 10px;
+    color: white;
+    padding: 50px;
+    padding-left: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10px;
+    padding-bottom: 50px;
+}
+
+.contact-container h1 {
+    margin-bottom: 20px;
+}
+
+.contact-container h3 {
+    margin-bottom: 20px;
+}
+
+.details input,
+.details textarea {
+    border: none;
+    width: 95%;
+    background-color: transparent;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.details input:focus,
+.details textarea:focus {
+    outline: none;
+}
+
+.name-input {
+    height: 50px;
+    font-size: large;
+}
+
+.Email-input {
+
+    height: 40px;
+    font-size: large;
+}
+
+.Message-input {
+    height: 80px;
+    font-size: medium;
+}
+
+.details button {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    margin: auto;
+}
+
+.login-container {
+    background-color: #10232c;
+    color: #f2f4f7;
+    margin-top: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 10%;
+    border-radius: 10px;
+}
+
+.login-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-input {
+    background-color: #f2f4f7;
+    color: #f2f4f7;
+    margin: 20px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.login-container input {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+
+}
+
+.login-container input:focus {
+    outline: none;
+}
+
+.login-container button {
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+}
+
+.login-container a {
+    text-decoration: none;
+    color: #f2f4f7;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}
+.Sign-up-container{
+    background-color: #10232c;
+    color: #f2f4f7;
+    margin-top: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 10%;
+    border-radius: 10px;
+}
+.Sign-up-inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sign-up-input{
+    background-color: #f2f4f7;
+    width: 80%;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.Sign-up-container input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+}
+.Sign-up-container input:focus{
+    outline: none;
+}
+.Sign-up-container button{
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+}
+.Sign-up-container a{
+    text-decoration: none;
+    color: #f2f4f7;
+}
+.Sign-up-container a:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width:700px) {
+
+    .navbar-menu-toggle {
+        display: block;
+    }
+
+    .navbar-links {
+        display: none;
+    }
+
+    .header-img {
+        display: none;
+    }
+
+    .service-container-1 {
+        display: none;
+    }
+
+    .service-container-2 {
+        flex-direction: column;
+    }
+    .login-container{
+        margin: 40px;
+        margin-bottom: 30%;
+    }
+    .Sign-up-container{
+        margin: 40px;
+        margin-bottom: 30%;
+    }
+    .contact-container{
+        margin: 40px;
+        margin-bottom: 30%;
+    }
+
+
+}
